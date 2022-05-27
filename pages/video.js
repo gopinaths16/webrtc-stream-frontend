@@ -62,7 +62,7 @@ function Video() {
 
         event.preventDefault()
 
-        const socket = io("http://localhost:5000")
+        const socket = io("https://00ed-2401-4900-360d-573b-acca-c8-6f42-aa96.in.ngrok.io")
 
         console.log(peerID);
         socket.emit("create-room", "gopinaths16", peerID)
@@ -101,7 +101,7 @@ function Video() {
 
         event.preventDefault()
 
-        const socket = io("http://localhost:5000")
+        const socket = io("https://00ed-2401-4900-360d-573b-acca-c8-6f42-aa96.in.ngrok.io")
 
         console.log(peerID);
         socket.emit("join-room", "gopinaths16", peerID)
