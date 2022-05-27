@@ -138,7 +138,7 @@ function Video() {
                 <div>
                     <div className={styles.mainFrame}>
                         <div className={styles.videoFrame}>
-                            <video className={styles.videoLocal} id='localStream' ref={localStream} autoPlay playsInline></video>
+                            <video className={styles.videoLocal} id='localStream' ref={localStream} autoPlay muted playsInline></video>
                             <video className={styles.videoRemote} id='remtoreStream' ref={remoteStream} autoPlay playsInline></video>
                         </div>
                         <div className={styles.buttonGroup}>
