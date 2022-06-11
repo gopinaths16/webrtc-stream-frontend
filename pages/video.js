@@ -89,7 +89,7 @@ function Video() {
 
         setIsDisabled(true)
 
-        const socket = io("https://da71-61-12-45-214.in.ngrok.io")
+        const socket = io("https://e7fe-2401-4900-3603-b4f1-81b5-6248-e0ac-dd4f.in.ngrok.io")
 
         console.log(peerID);
         socket.emit("create-room", roomID.current, peerID)
@@ -134,7 +134,7 @@ function Video() {
         event.preventDefault()
         setIsDisabled(true)
 
-        const socket = io("https://da71-61-12-45-214.in.ngrok.io")
+        const socket = io("https://e7fe-2401-4900-3603-b4f1-81b5-6248-e0ac-dd4f.in.ngrok.io")
 
         console.log(peerID);
 
